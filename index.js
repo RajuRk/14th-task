@@ -25,6 +25,6 @@ printFullName.apply(student2, ["Salam", "Tamilnadu"]);
 //bind method
 //Bind returns a new function, allowing you to pass in a this array and any number of arguments.
 const myName1 = printFullName.bind(student1, "Coimbatore", "Tamilnadu");
-const myName2 = printFullName.bind(student1, "Coimbatore", "Tamilnadu");
+const myName2 = printFullName.bind(student2, "Coimbatore", "Tamilnadu");
 myName1();
 myName2();
